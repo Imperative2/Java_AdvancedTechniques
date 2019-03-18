@@ -31,7 +31,7 @@ public class App
 	private URLClassLoader classLoader2 = null;
 	private URLClassLoader classLoader3 = null;
 
-	private String classesURL = "file:/C:\\Users\\Student235044\\eclipse-workspace\\Java_techniki_lab02_Classes\\bin/";
+	private String classesURL = "file:/C:\\GIT\\Java_AdvancedTechniques\\Java_techniki_lab02_Classes\\bin/";
 
 	private List<Class<?>> classesList = new ArrayList<>();
 
@@ -98,7 +98,7 @@ public class App
 		classLoader1 = null;
 
 		classLoader2 = new URLClassLoader(new URL[] {
-				new URL("file:/C:\\Users\\Student235044\\eclipse-workspace\\Java_techniki_lab02_ClassesB\\bin/") });
+				new URL("file:/C:\\GIT\\Java_AdvancedTechniques\\Java_techniki_lab02_ClassesB\\bin/") });
 		Class<?> lowerCase = classLoader2.loadClass("classes_to_Load.LowerCase");
 		classesList.add(lowerCase);
 

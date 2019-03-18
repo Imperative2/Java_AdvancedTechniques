@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="Java_techniki_lab01/src"/>
+	<classpathentry kind="src" path="Java_techniki_lab02_Classes/src"/>
+	<classpathentry kind="src" path="Java_techniki_lab02_ClassesB/src"/>
+	<classpathentry kind="src" path="Java_techniki_lab02_Loader/src"/>
+	<classpathentry kind="src" path="Java_techniki_lab03/src"/>
+	<classpathentry kind="output" path="Java_techniki_lab01/bin"/>
+</classpath>
