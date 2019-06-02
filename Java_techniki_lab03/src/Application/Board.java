@@ -47,9 +47,9 @@ public class Board
 			boardState[y][x] = 'X';
 	}
 	
-	public Point opponentGetMove(int stratedy)
+	public Point opponentGetMove(int strategy)
 	{
-		Method method = methodsList.get(stratedy);
+		Method method = methodsList.get(strategy);
 		
 		try
 		{

@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+
+Name: note/NoteBean.class
+Java-Bean: True
